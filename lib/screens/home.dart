@@ -15,11 +15,15 @@ class Home extends StatelessWidget {
 _buildAppBar() {
   return AppBar(
     title: Text('Advanced Mobile App'),
+    centerTitle: true,
   );
 }
 
 _buildBody() {
   return Center(
-    child: Text('សូមអនុវត្តន៍ទាំងអស់គ្នា'),
+    child: Text(
+      'សូមអនុវត្តន៍ទាំងអស់គ្នា',
+      style: TextStyle(fontFamily: 'Angkor', fontSize: 28),
+    ),
   );
 }

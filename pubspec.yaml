@@ -23,7 +23,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-#  fonts:
-#     - family: Schyler
-#       fonts:
-#         - asset: fonts/Schyler-Regular.ttf
+  fonts:
+     - family: Angkor
+       fonts:
+         - asset: fonts/Angkor-Regular.ttf
