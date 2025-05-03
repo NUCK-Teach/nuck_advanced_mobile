@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -24,9 +25,10 @@ class Home extends StatelessWidget {
     return Container(
       color: Theme.of(context).colorScheme.secondary,
       child: Center(
-        child: Text(
-          'សូមអនុវត្តន៍ទាំងអស់គ្នា',
+        child: AutoSizeText(
+          'ប្រាសាទ អង្គរវត្ត ឬ នគរវត្ត (អង់គ្លេស: Angkor Wat) or (Nokor Wat) ជាប្រាសាទ ដែលធំបំផុត នៅក្នុងប្រទេសកម្ពុជា ដែលមានមាឌដ្ឋានលើផ្ទៃដីទំហំ ១៦២,៦ ហិចតា ដោយស្មើនឹង (1,626,000 m2) ។',
           style: Theme.of(context).textTheme.titleLarge,
+          maxLines: 3,
         ),
       ),
     );
